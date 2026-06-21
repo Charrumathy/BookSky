@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ 
+font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+   
+}
+.navbar{
+  display:flex;
+    align-items:center;
+ padding:10px;
+border-radius: 10px; 
+ background-color: hotpink;
+}
+.navbar img,h1{
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.navbar img:hover{
+    transform:rotate(-10deg);
+}
+.navbar h1:hover{
+    transform:rotate(10deg);
+     
+
+}
+   
+.book{
+    font-weight: 400;
+    background-color: black;
+    padding:10px;
+    margin:20px;
+    width:20%;
+    vertical-align: top; 
+    display:inline-block;
+  
+    border-radius: 10px;
+    h2{
+        color: hotpink;
+    }
+    color:white; 
+    
+}
+.book button{
+background-color: hotpink;
+color: black;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-top:10px;
+border-radius: 10px;
+border:none;
+    }
+
+#create{
+    background-color: hotpink;
+    font-size: 50px;
+    color: black;
+    border-radius: 100%;
+    position:fixed;
+    top:90%;
+    right:20px;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity:0.8;
+    z-index:1;
+    position:absolute;
+   top:0;
+   left:0;
+   display:none;
+
+}
+.popup{
+    background-color: hotpink;
+    z-index:2;
+    width:30%;
+    padding:40px;
+    position: absolute;
+    top:20%;
+    left:33%;
+    border-radius: 10px;
+    border: none;
+    display:none;
+}
+.popup input{
+    
+    border:none;
+    border-bottom: 2px solid black;
+    background:transparent;
+    width:100%;
+    margin:5px;
+    font-size:20px;
+    outline:none;
+    
+}
+.popup button{
+    background-color:black;
+    color:hotpink;
+    border:none;
+    outline: none;
+    font-weight: 550;
+}
+
+textarea{
+    border:black solid 2px;
+    background:transparent;
+    margin:5px;
+    width:100%;
+    font-size:20px;
+    outline: none;
+}
+#add-book{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top:5px;
+}
+#close-book{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+     margin-top:5px;
+}
+
+

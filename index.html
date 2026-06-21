@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSky</title>
+     
+    <link rel="icon" href="images/titleimage.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    
+    <div class="navbar">
+        <img src="images/homepagelogo.png" height="30px" width="30px">
+        <h1 style="display: inline-block">Booksky</h1>
+    </div>
+    <div class="container">
+        <div class="book">
+            <h2>The Alchemist</h2>
+            <h4>Paulo Coelho</h4>
+            <p>A young shepherd named Santiago travels in search of a treasure and discovers the importance of following his dreams.</p>
+            <button id="remove" onclick="removebook(event)">Remove</button>
+            
+        </div>  
+
+         
+    </div>
+    <div class="overlay"></div>
+    <div class="popup">
+        <h1>Add a Book</h1>
+        <form>
+<input placeholder="Book name" id="book-name" type="text">
+        <input placeholder="Author" id="author-input" type="text">
+        <textarea placeholder="Short Description" id="description-input"></textarea>
+       <button id="add-book">Add</button>
+        <button id="close-book">close</button>
+        </form>
+         
+    </div>
+    <button id="create">+</button>
+    
+
+    
+    
+
+
+
+
+
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
